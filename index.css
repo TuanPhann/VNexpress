@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: sans-serif;
+}
+
 /*start header*/
 .information_top {
     height: 50px;
@@ -135,4 +139,256 @@
     color: #087cce;
 }
 
+/*end header_top*/
+/*header menu*/
+.information_second {
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+}
+
+.information_second-menu {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.information_second-menu ul {
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+
+
+.information_second-menu ul li {
+    list-style: none;
+    position: relative;
+}
+
+.information_second-menu ul a {
+    text-decoration: none;
+    color: #4f4f4f;
+    padding: 17px 6px;
+    font-size: 14px;
+}
+
+.information_second-menu ul a:hover {
+    color: #9f224e;
+}
+
+.information_second-menu .sidebar {
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translateY(-50%);
+}
+
+.information_second-menu .house {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-53%);
+    font-size: 12px;
+    left: -5px;
+    border: 1px solid #fff;
+    background-color: #e5e5e5;
+    padding: 6px 5px 7px 6px;
+    border-radius: 50%;
+}
+
+.information_second-menu ul a:hover .house {
+    color: #fff;
+    background-color: #9f224e;
+}
+
 /*end header*/
+.main {
+    margin-top: 20px;
+}
+
+.main_top {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.main_top-firt {
+    width: 70%;
+}
+
+
+
+.main_top-firt-one {
+    display: flex;
+    width: 100%;
+}
+
+.main_top-firt-image {
+    height: 312px;
+    width: 520px;
+}
+
+.main_top-firt-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.main_top-firt-text {
+    width: 38%;
+    background-color: #f7f7f7;
+    font-family: "Merriweather", serif;
+}
+
+.main_top-firt-sub {
+    margin: 30px;
+}
+
+.main_top-firt-sub h3 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.main_top-firt-sub h3:hover {
+    color: #087cce;
+}
+
+.main_top-firt-sub a {
+    text-decoration: none;
+}
+
+.main_top-firt-sub p {
+    color: #080202;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.main_top-firt-sub span {
+    font-size: 10px;
+    margin-right: 3px;
+}
+
+.main_massage .message {
+    font-size: 12px;
+    color: #757575;
+}
+
+.main_massage span {
+    font-size: 14px;
+    color: #087cce;
+}
+
+.main_top-firt-two {
+    display: flex;
+    margin-top: 20px;
+
+    padding-bottom: 30px;
+}
+
+.main_top-firt-two a {
+    text-decoration: none;
+    color: #343333;
+}
+
+.main_top-firt-post {
+    display: flex;
+    width: 62%;
+    margin-right: 32px;
+}
+
+.main_top-firt-post-one {
+    margin-right: 14px;
+    padding-right: 14px;
+}
+
+.main_top-firt-post-one h3 {
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.main_top-firt-post-one p {
+    font-size: 14px;
+    color: #222;
+}
+
+.main_top-firt-post-two {
+    width: 38%;
+    margin-left: -34px;
+    padding-left: 30px;
+    border-left: 1px solid #ccc;
+}
+
+.main_top-firt-post-two h4 {
+    color: #9f224e;
+    margin-bottom: 4px;
+}
+
+.main_top-firt-post-two h3 {
+    margin-bottom: 10px;
+}
+
+.main_top-firt-post-two p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.main_top-firt-post-name {
+    color: #757575;
+    display: flex;
+    position: relative;
+}
+
+.main_top-firt-post-name-left i {
+    padding-bottom: 10px;
+}
+
+.main_massage {
+    margin-top: 10px;
+}
+
+.main_massage a {
+    text-decoration: none;
+}
+
+.main_top-firt-name-right {
+    width: 68px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    background-color: #ccc;
+    position: absolute;
+    right: 0;
+    top: -16px;
+}
+
+.main_top-firt-name-right img {
+    width: 50px;
+    margin: 4px 0 0 6px;
+}
+
+.main_top-second {
+    width: 28%;
+    height: 540px;
+    margin-left: 20px;
+}
+
+.main_top-second img {
+    width: 100%;
+    height: 100%;
+}
+
+.main_top-firt-post-one,
+h3:hover {
+    color: #087cce;
+}
+
+.main_top-firt-post-name-left i:hover {
+    color: #087cce;
+}
+
+.main_top-firt-post-two h3:hover {
+    color: #087cce;
+}
