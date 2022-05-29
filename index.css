@@ -20,6 +20,7 @@ html {
 .information_top {
     height: 50px;
     border-bottom: 1px solid #ccc;
+    width: 100%;
 }
 
 .information_top-total {
@@ -31,6 +32,10 @@ html {
 .information_left {
     position: relative;
 
+}
+
+.information_left-sibar {
+    display: none;
 }
 
 .information_left img {
@@ -46,6 +51,10 @@ html {
     border-left: 1px solid #ccc;
     color: #727272;
     font-size: 14px;
+}
+
+.information_botton {
+    display: none;
 }
 
 .information_right {
@@ -132,6 +141,10 @@ html {
     margin-right: 6px;
 }
 
+.information_mobile-user {
+    display: none;
+}
+
 .information_right-login a {
     text-decoration: none;
     color: #757575;
@@ -146,7 +159,7 @@ html {
 .information_second {
     height: 50px;
     width: 100%;
-
+    z-index: 10;
     position: sticky;
     top: 0;
 
