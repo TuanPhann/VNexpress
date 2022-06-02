@@ -154,23 +154,7 @@ html {
     color: #087cce;
 }
 
-.information_second-menu .list {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: #fff;
-    border: 0.8px solid #fff;
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-    width: 160px;
-}
 
-.display_list {
-    position: relative;
-}
-
-.information_second-menu .list a {
-    padding-bottom: 0;
-}
 
 /*end header_top*/
 /*header menu*/
@@ -244,6 +228,65 @@ html {
     color: #fff;
     background-color: #9f224e;
 }
+
+.information_second-menu .list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    border: 0.8px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: max-content;
+    border-top: 1px solid #9f224e;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.25s;
+    pointer-events: none;
+}
+
+.display_list,
+.display_list-two,
+.display_list-three,
+.display_list-four,
+.display_list-five,
+.display_list-six,
+.display_list-seven,
+.display_list-eight,
+.display_list-nine,
+.display_list-ten,
+.display_list-eleven,
+.display_list-twelve,
+.display_list-thirteen,
+.display_list-fourteen {
+    position: relative;
+
+}
+
+.display_list:hover .list,
+.display_list-two:hover>.list,
+.display_list-three:hover>.list,
+.display_list-four:hover>.list,
+.display_list-five:hover>.list,
+.display_list-six:hover>.list,
+.display_list-seven:hover>.list,
+.display_list-eight:hover>.list,
+.display_list-nine:hover>.list,
+.display_list-ten:hover>.list,
+.display_list-eleven:hover>.list,
+.display_list-twelve:hover>.list,
+.display_list-thirteen:hover>.list,
+.display_list-fourteen:hover>.list {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.list li {
+    height: 40px;
+    line-height: 40px;
+}
+
+
 
 /*end header*/
 .main {
